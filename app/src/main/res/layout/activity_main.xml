@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No_Data" />
+
+    <TextView
+        android:id="@+id/accText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No_Data" />
+
+    <TextView
+        android:id="@+id/luxText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No_Data" />
+
+    <Button
+        android:id="@+id/findBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取所有传感器列表"/>
+
+    <Button
+        android:id="@+id/lightBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="光线传感器"/>
+
+    <Button
+        android:id="@+id/accelerationBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加速度传感器"/>
+
+    <Button
+        android:id="@+id/orientationBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方向传感器"/>
+
+    <Button
+        android:id="@+id/proximityBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="距离传感器"/>
+
+</LinearLayout>
